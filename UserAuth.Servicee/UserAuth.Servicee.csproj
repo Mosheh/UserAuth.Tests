@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\UserAuth.Domain\UserAuth.Domain.csproj" />
+    <ProjectReference Include="..\UserAuth.Infra\UserAuth.Infra.csproj" />
+  </ItemGroup>
+
+</Project>
